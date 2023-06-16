@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     float operand1, operand2, result;
     char operator;
@@ -28,8 +27,6 @@ int main() {
             printf("invalid\n");
             return 1;  
     }
-
     printf("result %f\n", result);
-
     return 0;
 }

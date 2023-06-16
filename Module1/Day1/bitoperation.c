@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int bit_operations(int num, int oper_type) {
     switch (oper_type) {
         case 1:  
@@ -12,19 +11,18 @@ int bit_operations(int num, int oper_type) {
             num ^= (1 << 15);  
             break;
         default:
-            printf("invalid operation\n");
+            printf("invalid \n");
             return num;  
     }
     return num;
 }
-
 int main() {
-    int number, operationType;
-    printf("enter the number");
-    scanf("%d", &number);
+    int num, type;
+    printf("enter the num");
+    scanf("%d", &num);
     printf("operation 1,2,or3");
-    scanf("%d", &operationType);
-    int result = bit_operations(number, operationType);
+    scanf("%d", &type);
+    int result = bit_operations(num, type);
     printf("result%d\n", result);
     return 0;
 }

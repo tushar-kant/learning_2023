@@ -1,23 +1,23 @@
 #include <stdio.h>
 void studentgrade(int score) {
     if (score >= 90 && score <= 100) {
-        printf("Grade A\n");
+        printf("grade A\n");
     } else if (score >= 75 && score <= 89) {
-        printf("Grade B\n");
+        printf("grade B\n");
     } else if (score >= 60 && score <= 74) {
-        printf("Grade C\n");
+        printf("grade C\n");
     } else if (score >= 50 && score <= 59) {
-        printf("Grade D\n");
+        printf("grade D\n");
     } else if (score >= 0 && score <= 49) {
-        printf("Grade F\n");
+        printf("grade F\n");
     } else {
-        printf("Invalid\n");
+        printf("invalid\n");
     }
 }
 
 int main() {
     int gradestud;
-    printf("Enter score");
+    printf("enter score");
     scanf("%d", &gradestud);
     studentgrade(gradestud);
 

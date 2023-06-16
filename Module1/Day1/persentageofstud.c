@@ -1,21 +1,17 @@
 #include <stdio.h>
-
 int main() {
     int roll;
     char name[100];
-    float phy, math, chem;
-    float total, percentage;
+    float phy, math, chem,total, percentage;
 
     printf("roll no");
     scanf("%d", &roll);
     printf("name");
     scanf(" %s", name);
-
     printf("marks in physics ");
     scanf("%f", &phy);
     printf("marks in math ");
     scanf("%f", &math);
-
     printf("marks in chem ");
     scanf("%f", &chem);
 
@@ -29,6 +25,5 @@ int main() {
     printf("chem %f\n", chem);
     printf("total Mark %f\n", total);
     printf("percentage %f\n", percentage);
-
     return 0;
 }
