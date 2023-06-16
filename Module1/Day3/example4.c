@@ -12,7 +12,6 @@ int largenum(int num) {
     }
     return l;
 }
-
 int main() {
     int num;
     printf("enter a 4digit num");
