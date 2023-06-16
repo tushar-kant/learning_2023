@@ -7,7 +7,6 @@ int countsetbit(int num) {
     }
     return count;
 }
-
 int funtotalbit(int arr[], int size) {
     int totalBits = 0;
     for (int i = 0; i < size; i++) {
